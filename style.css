@@ -1,0 +1,133 @@
+ body {
+    background-color: rgb(177, 126, 79); 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.info {
+    margin-bottom: 10px;
+    background-color: white;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+    width: 938px;
+}
+
+.body-h {
+    color: white;
+}
+
+.header {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 930px;
+    height: 50px;
+}
+
+.header-ul {
+    display: flex;
+    list-style-type: none;
+    text-align: center;
+}
+
+.header-li {
+    margin-left: 40px;
+    margin-right: 60px;
+    text-transform: uppercase;
+    padding: 16px 16px;
+}
+
+.header-li:hover {
+    background-color: rgba(128, 128, 128, 0.61);
+}
+
+#active {
+    background-color: rgba(128, 128, 128, 0.61);
+    padding: 16px 16px;
+}
+
+.header-li-home {
+    text-transform: uppercase;
+    padding: 16px 16px;
+    width: 175px;
+}
+
+.header-a {
+    color: white;
+    text-decoration: none;
+}
+
+img {
+    margin-top: 10px;
+}
+
+.container {
+    display: flex;
+}
+
+.titles {
+    color: rgb(177, 126, 79);
+}
+
+.p1 {
+    margin-top: -20px;
+    margin-bottom: 40px;
+}
+
+.main-a, .footer-a {
+    color: rgb(90, 185, 87);
+    text-decoration: none;
+}
+
+p {
+    text-align: justify;
+}
+
+.right {
+    margin-left: 40px;
+    margin-right: 8px;
+}
+
+.aside-ul {
+    list-style-type: none;
+}
+
+.aside-li {
+    margin-top: 10px;
+    border-bottom: 1px solid rgb(207, 205, 199);
+}
+
+.one {
+    background-color: rgb(240, 237, 230);
+    padding-bottom: 10px;
+}
+
+.aside-h {
+    background-color: rgb(93, 158, 188);
+    color: white;
+    border: 10px solid rgb(240, 237, 230);
+    padding: 5px;
+}
+
+.aside-p {
+    margin-left: 30px;
+    margin-right: 25px;
+}
+
+.footer {
+    background-color: rgb(143, 211, 141);
+    width: 930px;
+    height: 60px;
+    margin-top: 10px;
+}
+
+.footer-p {
+    padding: 20px;
+text-align: center;
+}
